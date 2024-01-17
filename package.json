@@ -1,0 +1,19 @@
+{
+	"name": "auth-express",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.18.2"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\"",
+		"start": "node ./index.js",
+		"dev": "nodemon ./index.js"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "5.16.5",
+		"jsdom": "22.1.0",
+		"vitest": "0.32.2"
+	}
+}
